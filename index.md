@@ -10,3 +10,4 @@ blah blah
 
 - ggggggg
 
+[if i did it right this should be page 2](../page2.md)
