@@ -1,13 +1,32 @@
 <!DOCTYPE html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="sidebar.js"></script>
+	
 <html>
+
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>hey</title>
 </head>
+
+<body>
 
 <div class="bg-image"></div>
 
-<div class="bg-text">
-	<h1>h1</h1>
-	<p>pppppppp</p>
+<div id="navSidebar" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="#">home</a>
+	<a href="#">contact</a>
+	<a href="#">information</a>
 </div>
+
+<div id="main">
+	<div class="bg-text">
+		<span onclick="openNav()"><h1>h1</h1></span>
+		<p>p</p>
+	</div>
+</div>
+
+</body>
+
 </html>
