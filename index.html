@@ -13,24 +13,28 @@
 <div class="background-img"></div>
 
 <div class="mainwrapper">
-	<div id="navSidebar" class="sidebar">
+	<div id="navSidebar" class="js-navigation">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="./index.html">home</a>
-		<a href="./contact.html">contact</a>
-		<a href="./information.html">information</a>
+		<a href="./contact/contact.html">contact</a>
+		<a href="./information/information.html">information</a>
+<script>
+  $(document).ready(function() {
+    $('#js-content').load('/index.html');
 
+    $('#js-navigation a').click(function(e) {
+      e.preventDefault();
+      $("#js-content").load(e.target.href);
+    })
+  });
+</script>
 
 	</div>
 </div>
 
+<div id="main">
 
-
-<!-- <div id="main">
-	<div class="bg-text">
-		<h1>welcome!</h1>
-		<div class="sidebar-open"><span onclick="openNav()"><p><i>click here for navigation</i></p></span></div>
-	</div>
-</div> -->
+</div>
 
 </body>
 
