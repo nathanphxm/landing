@@ -9,7 +9,7 @@ body, html {
 	font-family: 'Muli', sans-serif;
 }
 
-.bg-image {
+.background-img {
 	background-image: url("background2.jpg");
 	filter: blur(5px); 
 	position: fixed;
@@ -25,16 +25,17 @@ body, html {
 	display: block;
 	width: 105%;
 	height: 105%;
+	z-index: -1;
 }
 
 .bg-text {
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.6);
 	color: #ffffff;
 	border: 5px solid #ffffff;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 300px;
+	width: 700px;
 	padding: 10px;
 	text-align: center;
 	transform: translate(-50%,-50%);
@@ -57,7 +58,7 @@ body, html {
 .sidebar a {
 	padding: 8px 8px 8px 32px;
 	font-size: 25px;
-	color: rgb(160,160,160);
+	color: rgb(30,30,30);
 	display: block;
 	transition: 0.3s;
 }
@@ -67,7 +68,7 @@ body, html {
 }
 
 .sidebar a:click {
-	color: (100,100,100);
+	color:rgb(100,100,100);
 }
 
 .sidebar .closebtn {
@@ -87,3 +88,11 @@ body, html {
 	.sidebar {padding-top: 15px;}
 	.sidebar a {font-size: 18px;}
 }
+
+.sidebar-open p {
+	color: #BAEBFF;
+}
+
+
+
+

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="sidebar.js"></script>
-	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
 <html>
 
 <head>
@@ -11,21 +10,27 @@
 
 <body>
 
-<div class="bg-image"></div>
+<div class="background-img"></div>
 
-<div id="navSidebar" class="sidebar">
-	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<a href="#">home</a>
-	<a href="#">contact</a>
-	<a href="#">information</a>
-</div>
+<div class="mainwrapper">
+	<div id="navSidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="./index.html">home</a>
+		<a href="./contact.html">contact</a>
+		<a href="./information.html">information</a>
 
-<div id="main">
-	<div class="bg-text">
-		<span onclick="openNav()"><h1>h1</h1></span>
-		<p>p</p>
+
 	</div>
 </div>
+
+
+
+<!-- <div id="main">
+	<div class="bg-text">
+		<h1>welcome!</h1>
+		<div class="sidebar-open"><span onclick="openNav()"><p><i>click here for navigation</i></p></span></div>
+	</div>
+</div> -->
 
 </body>
 
