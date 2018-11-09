@@ -27,7 +27,7 @@ body, html {
 	height: 105%;
 }
 
-.js-content {
+.bg-text {
 	background-color: rgba(0,0,0,0.6);
 	color: #ffffff;
 	border: 5px solid #ffffff;
@@ -41,7 +41,7 @@ body, html {
 	z-index: 1;
 }
 
-.js-navigation {
+.sidebar {
 	height: 100%;
 	width: 0; /* changed in js */
 	position: fixed;
@@ -54,7 +54,7 @@ body, html {
 	transition: 0.5s;
 }
 
-.js-navigation a {
+.sidebar a {
 	padding: 8px 8px 8px 32px;
 	font-size: 25px;
 	color: rgb(30,30,30);
@@ -62,15 +62,15 @@ body, html {
 	transition: 0.3s;
 }
 
-.js-navigation a:hover {
+.sidebar a:hover {
 	color: rgb(255,255,255);
 }
 
-.js-navigation a:click {
+.sidebar a:click {
 	color:rgb(100,100,100);
 }
 
-.js-navigation .closebtn {
+.sidebar .closebtn {
 	position: absolute;
 	top: 0;
 	right: 25px;
@@ -84,11 +84,11 @@ body, html {
 }
 
 @media screen and (max-height: 450px) {
-	.js-navigation {padding-top: 15px;}
-	.js-navigation a {font-size: 18px;}
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
 }
 
-.js-navigation-open p {
+.sidebar-open p {
 	color: #BAEBFF;
 }
 
