@@ -9,6 +9,10 @@ body, html {
 	font-family: 'Muli', sans-serif;
 }
 
+h1 {
+	font-size: 50px;
+}
+
 .background-img {
 	background-image: url("background2.jpg");
 	filter: blur(5px); 
